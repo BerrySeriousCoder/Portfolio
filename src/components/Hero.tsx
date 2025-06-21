@@ -187,7 +187,7 @@ const Hero = () => {
           
           {/* Main Title */}
           <div className={`transition-all duration-1000 delay-700 ${animationStage >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <h1 className="text-4xl lg:text-5xl font-bold mb-8 font-mono tracking-wide">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-8 mt-3 lg:mt-0 font-mono tracking-wide">
               HARSH VARDHAN SINGH
             </h1>
           </div>
@@ -225,9 +225,9 @@ const Hero = () => {
           {/* Description */}
           <div className={`transition-all duration-1000 delay-1300 ${animationStage >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="text-lg text-gray-300 font-mono leading-relaxed mb-8 max-w-2xl mx-auto">
-              Specialized in crafting digital products, mobile & websites
+            I build solid full-stack web apps, start to finish. 
               <br />
-              Crafted outstanding digital product experiences in the last 4 years
+            Focused on clean code, smooth performance, and great user experience.
             </div>
           </div>
         </div>
