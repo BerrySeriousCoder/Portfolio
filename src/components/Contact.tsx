@@ -63,12 +63,16 @@ const Contact = () => {
 
               <div className="flex flex-col space-y-4 pt-4">
                 <a 
-                  href="#" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1QpNS3iFCU3-vsR-V95Or4HB9B2-q7K1I/view?usp=sharing" 
                   className="text-white text-lg hover:text-gray-300 transition-colors duration-300 underline decoration-gray-600 hover:decoration-white inline-block"
                 >
                   Resume
                 </a>
                 <a 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/harsh-vardhan-singh-2ab454257/" 
                   className="flex items-center space-x-2 text-white text-lg hover:text-gray-300 transition-colors duration-300 group"
                 >

@@ -187,7 +187,7 @@ const Hero = () => {
           
           {/* Main Title */}
           <div className={`transition-all duration-1000 delay-700 ${animationStage >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <h1 className="text-4xl lg:text-5xl font-bold mb-8 mt-3 lg:mt-0 font-mono tracking-wide">
+            <h1 className="text-4xl lg:text-5xl font-bold lg:mb-8 mt-8 lg:mt-0 font-mono tracking-wide">
               HARSH VARDHAN SINGH
             </h1>
           </div>
